@@ -21,6 +21,8 @@ html{
   font-weight: 700;
   font-size: 25px;
   margin:auto;
+  padding-bottom: 25px;
+  padding-top: 25px;
 }
 
 header{
