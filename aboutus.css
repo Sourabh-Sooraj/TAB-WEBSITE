@@ -173,11 +173,13 @@ hr{
  h3{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  padding-top: 2%;
  }
 
  h6{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
+  padding-top: 2%;
  }
 
  .accordion{
