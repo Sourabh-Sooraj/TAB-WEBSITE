@@ -163,6 +163,7 @@ footer p{
 
 #spotlight{
   width: auto;
+  opacity: 92%;
 }
 
 
@@ -172,6 +173,7 @@ footer p{
   color: #772432;
   font-size: 317px;
   font-weight: 700;
+  margin-top: 8.5%;
   z-index: 9;
   cursor: pointer;
 }
