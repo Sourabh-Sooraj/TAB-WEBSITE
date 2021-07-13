@@ -17,7 +17,7 @@ html{
     transition: padding 500ms;  
 }
 
-
+#mapid { height: 400px; width: 600px;}
 
    .brtxt{
     font-family: 'Source Sans Pro', sans-serif;

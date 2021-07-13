@@ -9,6 +9,13 @@
         <link rel="stylesheet" type="text/css" href="./contactus.css">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+        integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+        crossorigin=""/>
+         <!-- Make sure you put this AFTER Leaflet's CSS -->
+ <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+ integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+ crossorigin=""></script>
     </head>
     <body>
         <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-light navbar-scroll fixed-top" style="background-color:  #004165;">
@@ -48,7 +55,7 @@
           <div class="container">
             <h2>Find us here</h2>
             <hr>
-            <div id="mapid"></div>
+            <div id="mapid" style="margin-left: 23%;"></div>
           </div>
           
           
@@ -82,8 +89,25 @@
     </div>
 </footer>
 
+<script>
+  var mymap = L.map('mapid').setView([12.89498, 77.67575], 14);
+            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic291cmFiaHNvb3JhaiIsImEiOiJja3IyNjBybzkyNXg0Mm9xaDRzemw4NDV6In0.ilGjVfOuWIkFv_aovtJVGQ', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+    maxZoom: 18,
+    id: 'mapbox/streets-v11',
+    tileSize: 512,
+    zoomOffset: -1,
+    accessToken: 'pk.eyJ1Ijoic291cmFiaHNvb3JhaiIsImEiOiJja3IyNjBybzkyNXg0Mm9xaDRzemw4NDV6In0.ilGjVfOuWIkFv_aovtJVGQ'
+}).addTo(mymap);
+var marker = L.marker([12.89498, 77.67575]).addTo(mymap);
+</script>
+
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBh6cZt_VOMHWTF5rVPekNc4MCVrH-5sYA&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
 <script src="./contactus.js"></script>
 </body>
 </html>
