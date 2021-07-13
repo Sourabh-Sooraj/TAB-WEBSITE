@@ -49,6 +49,10 @@ $('.iicon').click(function(){
   location.href="https://www.instagram.com/toastmastersamritabengaluru/";
 });
 
+$('#pumpum').click(function(){
+  location.href="https://github.com/anupamvamsi";
+});
+
 
 $(function(){
   $(window).scroll(function(){ 

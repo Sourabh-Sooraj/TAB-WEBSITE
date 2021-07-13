@@ -31,6 +31,10 @@ $('.journeybut').click(function(){
   location.href="./ourjourney.html";
 });
 
+$('#pumpum').click(function(){
+  location.href="https://github.com/anupamvamsi";
+});
+
   $('.ficon').click(function(){
     location.href="https://www.facebook.com/toastmastersamritabengaluru";
   });
