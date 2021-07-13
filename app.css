@@ -180,7 +180,8 @@ footer p{
   text-align: justify;
   text-justify: inter-word;
   font-weight: 700;
-  color: black;
+  font-style: italic;
+  color: rgb(57,126,163);;
   display: none;
 }
 
