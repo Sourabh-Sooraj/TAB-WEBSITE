@@ -179,7 +179,7 @@ hr{
  h6{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-  padding-top: 5px;
+  padding-top: 2px;
  }
 
  .accordion{
@@ -212,6 +212,13 @@ hr{
      text-align: center;
      font-size: 3em;
  }
+
+ 
+header img{
+  width: 100%;
+}
+
+
  
  @media only screen and (max-width: 640px) {
     .brtxt{

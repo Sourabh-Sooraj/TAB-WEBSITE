@@ -15,6 +15,16 @@ html{
     transition: padding 500ms;  
 }
 
+
+header img{
+  width: 100%;
+}
+
+.modal-body{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .brtxt{
   font-family: 'Source Sans Pro', sans-serif;
     color: white;

@@ -51,6 +51,35 @@
           <header style="padding-top: 7%;">
             <img src="./Contact Us.png" alt="">
           </header>
+
+          <h2 id="contactit">In case you missed it</h2>
+            <hr>
+          <div class="container cards">
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
           
           <div class="container">
             <h2>Find us here</h2>
@@ -90,16 +119,20 @@
 </footer>
 
 <script>
-  var mymap = L.map('mapid').setView([12.89498, 77.67575], 14);
-            L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token=pk.eyJ1Ijoic291cmFiaHNvb3JhaiIsImEiOiJja3IyNjBybzkyNXg0Mm9xaDRzemw4NDV6In0.ilGjVfOuWIkFv_aovtJVGQ', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
-    maxZoom: 17,
-    id: 'mapbox/streets-v11',
-    tileSize: 512,
-    zoomOffset: -1,
-    accessToken: 'pk.eyJ1Ijoic291cmFiaHNvb3JhaiIsImEiOiJja3IyNjBybzkyNXg0Mm9xaDRzemw4NDV6In0.ilGjVfOuWIkFv_aovtJVGQ'
-}).addTo(mymap);
-var marker = L.marker([12.89498, 77.67575]).addTo(mymap);
+  var map = L.map('mapid').setView({lon: 77.67575, lat: 12.89498}, 14);
+
+// add the OpenStreetMap tiles
+L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 18,
+  attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>'
+}).addTo(map);
+
+// show the scale bar on the lower left corner
+L.control.scale().addTo(map);
+
+// show a marker on the map
+L.marker({lon: 77.67575, lat: 12.89498}).bindPopup('<p style="text-align: center;"><b>Amrita School of Engineering, <br>Toastmasters Amrita Bengaluru</b></p>').addTo(map);
+
 </script>
 
 

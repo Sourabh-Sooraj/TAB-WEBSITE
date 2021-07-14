@@ -17,7 +17,34 @@ html{
     transition: padding 500ms;  
 }
 
-#mapid { height: 400px; width: 600px;}
+
+header img{
+  width: 100%;
+}
+
+#contactit{
+  padding-top: 3%;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+      text-align: center;
+      font-size: 3em;
+}
+
+.cards{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#mapid{
+  height: 50%;
+  width: 50%;
+  margin: auto; /* to center */
+  /* The height is 400 pixels */
+  /* width: 100%; */
+  /* The width is the width of the web page */
+ }
+
 
    .brtxt{
     font-family: 'Source Sans Pro', sans-serif;

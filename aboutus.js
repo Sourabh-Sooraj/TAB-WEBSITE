@@ -47,3 +47,5 @@ $('.iicon').click(function(){
 location.href="https://www.instagram.com/toastmastersamritabengaluru/";
 });
 
+
+
