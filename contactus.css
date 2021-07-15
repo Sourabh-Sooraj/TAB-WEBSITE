@@ -31,9 +31,52 @@ header img{
 }
 
 .cards{
+  text-align: center;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+}
+
+.guestform{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.guestform label{
+  margin-top: 2%;
+}
+
+.guestform input{
+  width: 100%;
+}
+
+.guestform input:last-child{
+  height: 10%;
+}
+
+.guestform a{
+  float: right;
+  margin-top: 3%;
+  border-radius: 10px;
+  background-color: #004165;
+  text-decoration: none;
+    color: white;
+  border: 1px solid #9dd1ff;
+    padding: 10px 35px;
+    transition: background-color 200ms ease-in-out;
+}
+
+.guestform input:first-child{
+  margin-top: 0;
+}
+
+
+.card-text i{
+  font-size: 2em;
+}
+
+.card-text i:hover{
+  color: #004165;
+  cursor: pointer;
 }
 
 #mapid{

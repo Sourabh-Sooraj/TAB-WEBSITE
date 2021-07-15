@@ -52,23 +52,46 @@
           <header>
               <img src="./blogs.png" alt="">
           </header>
-          <section id="Newsletters">
+          <section id="Blogs">
             <h2 id="nltitle" style="color: black;">Blogs</h2>
             <hr>
-            <div class="container">
-              <div class="card" style="width: 18rem;">
+            <div class="container" id="blgs">
+              <div class="card" style="width: 18rem; margin-right: 2em;">
                 <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Live Ball of Fire</h5>
+                  <p class="card-text">Toastmasters Amrita Bengaluru is one of the most dynamic clubs our college has to offer and will probably remain so till the end.</p>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal1">
+                    Read
+                  </button>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="./Sri Akka Blog.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Card title</h5>
                   <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                     Read
                   </button>
                 </div>
               </div>
             </div>
         </section>
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog modal-xl modal-dialog-scrollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">The Live Ball of Fire</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam distinctio id ducimus hic praesentium accusantium delectus obcaecati totam eveniet recusandae impedit saepe magnam, fugit eaque voluptas maiores odio voluptate cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem necessitatibus eos deserunt odit. Nihil quasi soluta facere eligendi culpa ducimus earum temporibus praesentium tempore ipsum? Hic quisquam consectetur tempore a! Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, dignissimos nobis nostrum error exercitationem cum deserunt eaque expedita quisquam aliquid magni consectetur quo saepe, laudantium voluptatum ullam corrupti? Repellendus, a. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus nobis minima vitae illum quibusdam eaque possimus aliquid voluptatum est molestiae adipisci eum voluptas placeat, sit veniam exercitationem, aliquam molestias voluptates. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum est placeat unde tempore sapiente facilis et in optio exercitationem, maiores quaerat sequi saepe, possimus corrupti consequatur dolore tempora, quae expedita.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog modal-xl modal-dialog-scrollable">
             <div class="modal-content">
               <div class="modal-header">
@@ -114,11 +137,11 @@
               <div class="col-md-3">
                 <h2 id="address">Let's Meet</h2>
                 <p id="locat">
-                    Amrita Vishwa Vidyapeetham
-                    Bengaluru Campus
-                    Kasavanahalli, Carmelaram P.O.
-                    Bengaluru - 560 035
-                    Karnataka, India
+                  Amrita Vishwa Vidyapeetham,
+                  Bengaluru Campus,
+                  Kasavanahalli, <br>Carmelaram P.O.
+                  Bengaluru - 560 035<br>
+                  Karnataka, India
                 </p>
                </div>
           </div>

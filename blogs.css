@@ -15,6 +15,11 @@ html{
     transition: padding 500ms;  
 }
 
+#blgs{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
 
 header img{
   width: 100%;
@@ -23,6 +28,19 @@ header img{
 .modal-body{
   text-align: justify;
   text-justify: inter-word;
+}
+
+.card-text{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.card-title{
+  text-align: center;
+}
+
+.card button{
+  margin-left: 40%;
 }
 
 .brtxt{
