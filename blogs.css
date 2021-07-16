@@ -41,6 +41,11 @@ header img{
 
 .card button{
   margin-left: 40%;
+  background-color: #004165;
+}
+
+.card button:hover{
+  background-color: #397ea3
 }
 
 .brtxt{

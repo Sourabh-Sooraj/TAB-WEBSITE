@@ -173,7 +173,11 @@ hr{
  h3{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 600;
-  padding-top: 5px;
+  padding-top: 10px;
+ }
+
+ #sect{
+  margin-top: 2%;
  }
 
  h6{
@@ -190,8 +194,8 @@ hr{
      float: left;
      margin-left: 2%;
      margin-right: 2%;
-     padding-top: 1%;
-     padding-bottom: 1%;
+     padding-top: 1.5%;
+     padding-bottom: 1.5%;
      width: 15%;
      border-radius: 50%;
  }
@@ -211,8 +215,8 @@ hr{
     float: right;
     margin-left: 2%;
     margin-right: 2%;
-    padding-top: 1%;
-    padding-bottom: 1%;
+    padding-top: 1.5%;
+    padding-bottom: 1.5%;
     width: 15%;
     border-radius: 50%;
  }
