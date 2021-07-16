@@ -27,12 +27,22 @@ html{
   padding-bottom: 25px;
   padding-top: 25px;
 }
-
+/* 
 .spotlights{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start;
-}
+} */
+/* #firstmet:hover{
+  -webkit-filter: grayscale(0); 
+  filter: grayscale(0);
+} */
+
+/* .row img{
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+} */
+
 
 
 .navbar p:hover{

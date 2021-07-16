@@ -230,8 +230,27 @@ header img{
 }
 
 
+.carousel-item img{
+  border-radius: 50%;
+  margin-left: 45%;
+  margin-bottom: 2%;
+  margin-top: 2%;
+}
 
+.carousel-item p{
+  font-family: 'Source Sans Pro', sans-serif;
+    text-align: justify;
+    text-justify: inter-word;
+}
 
+/* .carousel-indicators button{
+  padding-bottom: 10%;
+} */
+
+.carousel-item h3{
+  text-align: center;
+  margin-bottom: 2%;
+}
  
  @media only screen and (max-width: 640px) {
     .brtxt{

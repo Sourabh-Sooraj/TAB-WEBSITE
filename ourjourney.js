@@ -51,3 +51,10 @@ $('.iicon').click(function(){
 location.href="https://www.instagram.com/toastmastersamritabengaluru/";
 });
 
+// $("#fiftpost").hover(function(){
+//   $(this).css('filter','grayscale(0)');
+//   $('#fift').css('filter','grayscale(0)');
+//   }, function(){
+//     $(this).css('filter','grayscale(100)');
+//     $('#fift').css('filter','grayscale(100)');
+// });
