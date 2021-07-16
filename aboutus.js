@@ -20,7 +20,7 @@ location.href="./blogs.html";
 });
 
 $('.contactbut').click(function(){
-location.href="./contactus.html";
+location.href="templates/Contactus.html";
 });
 
 $('.aboutbut').click(function(){
@@ -35,6 +35,10 @@ $('#pumpum').click(function(){
   location.href="https://github.com/anupamvamsi";
 });
 
+$('.logos').click(function(){
+  location.href="./index.html";
+});
+
 $('.ficon').click(function(){
 location.href="https://www.facebook.com/toastmastersamritabengaluru";
 });
@@ -46,6 +50,7 @@ location.href="https://www.linkedin.com/in/toastmasters-amrita-bengaluru-2830b51
 $('.iicon').click(function(){
 location.href="https://www.instagram.com/toastmastersamritabengaluru/";
 });
+
 
 
 

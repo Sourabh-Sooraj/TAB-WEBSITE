@@ -7,28 +7,32 @@ $(function() {
     })
 });
 
+$('.logos').click(function(){
+  location.href="../index.html";
+  });
+
 $('.brtxt').click(function(){
-location.href="./index.html";
+location.href="../index.html";
 });
 
 $('.homebut').click(function(){
-  location.href="./index.html";
+  location.href="../index.html";
 });
 
 $('.blogsbut').click(function(){
-  location.href="./blogs.html";
+  location.href="../blogs.html";
 });
 
 $('.contactbut').click(function(){
-  location.href="./contactus.html";
+  location.href="../contactus.html";
 });
 
 $('.aboutbut').click(function(){
-  location.href="./aboutus.html";
+  location.href="../aboutus.html";
 });
 
 $('.journeybut').click(function(){
-  location.href="./ourjourney.html";
+  location.href="../ourjourney.html";
 });
 
 $('#pumpum').click(function(){

@@ -196,6 +196,17 @@ hr{
      border-radius: 50%;
  }
 
+ #aboutro{
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  text-align: justify;
+  text-justify: inter-word;
+  font-size: 1.2em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  margin-top: 1.5%;
+ }
+
  .exmem2{
     float: right;
     margin-left: 2%;
@@ -217,6 +228,8 @@ hr{
 header img{
   width: 100%;
 }
+
+
 
 
  

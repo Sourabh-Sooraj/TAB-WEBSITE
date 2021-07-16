@@ -20,7 +20,7 @@ $('.blogsbut').click(function(){
 });
 
 $('.contactbut').click(function(){
-  location.href="./contactus.html";
+  location.href="templates/Contactus.html";
 });
 
 $('.aboutbut').click(function(){
@@ -33,6 +33,10 @@ $('.journeybut').click(function(){
 
 $('#pumpum').click(function(){
   location.href="https://github.com/anupamvamsi";
+});
+
+$('.logos').click(function(){
+  location.href="./index.html";
 });
 
 $('.ficon').click(function(){

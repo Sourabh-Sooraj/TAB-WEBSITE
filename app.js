@@ -13,6 +13,10 @@ $(function() {
         })
 });
 
+$('.logos').click(function(){
+  location.href="./index.html";
+});
+
 $('.brtxt').click(function(){
   location.href="./index.html";
 });
@@ -26,7 +30,7 @@ $('.blogsbut').click(function(){
 });
 
 $('.contactbut').click(function(){
-  location.href="./contactus.html";
+  location.href="templates/Contactus.html";
 });
 
 $('.aboutbut').click(function(){
