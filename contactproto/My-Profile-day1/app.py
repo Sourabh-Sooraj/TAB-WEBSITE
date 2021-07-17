@@ -35,7 +35,7 @@ def action():
         Message = request.form.get("Message")
         body= "name:"+str(name) + "phone no:"+str(phoneno) + "Email:"+str(Email) + "message:"+str(Message)
         EMAIL="sujithkandati2001@gmail.com"
-        email_alert("New Response! - TAB Website Form", body, EMAIL)
+        email_alert("hey", body, EMAIL)
         return render_template('successful.html')
 
 

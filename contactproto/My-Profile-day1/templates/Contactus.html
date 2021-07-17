@@ -55,7 +55,24 @@
           <h2 id="contactit">Reach out to us</h2>
           <hr>
           <div class="container">
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScX7Ofi1jjq_h237a1asCaK_l1Td8uFnAKviSDgij-GYfDviw/viewform?embedded=true" width="640" height="808" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            <form  action="action" method="post" >
+              <label for="name">Name:</label>
+              <br>
+              <input type="text" id="name" name="name" >
+              <br>
+              <label for="phoneno">Phone No:</label>
+              <br>
+              <input type="text" id="phoneno" name="phoneno" >
+              <br>
+              <label for="email"> Email: </label>
+              <br>
+              <input type="text" id="email" name="Email" >
+              <br>
+              <label>Send us a message (Maybe mention how you came upon TAB): </label>
+              <br>
+              <input name="Message" id="" cols="30" rows="10"><br>
+              <button type="submit" class="BUTTON_ANQ">Submit</button>
+          </form>
         </div>
 
           <h2 id="contactit">In case you missed it</h2>
@@ -73,6 +90,13 @@
                   +91 90481 01909</p>
               </div>
             </div>
+            <div class="card" style="width: 21rem;">
+              <img src="../static/images/Mail.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Email ID</h5>
+                <p class="card-text">toastmastersamritabangalore@gmail.com </p>
+              </div>
+            </div>
             <div class="card" style="width: 18rem;">
               <img src="../static/images/Social Media.png" class="card-img-top" alt="...">
               <div class="card-body">
@@ -80,13 +104,6 @@
                 <p class="card-text"><br><br><br><i class="bi-facebook ficon"></i>
                   <i class="bi-linkedin licon"></i>
                   <i class="bi-instagram iicon"></i><br><br><br></p>
-              </div>
-            </div>
-            <div class="card" style="width: 21rem;">
-              <img src="../static/images/Mail.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Email ID</h5>
-                <p class="card-text">toastmastersamritabangalore@gmail.com </p>
               </div>
             </div>
           </div>
@@ -149,7 +166,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 L.control.scale().addTo(map);
 
 // show a marker on the map
-L.marker({lon: 77.67575, lat: 12.89498}, {icon: marker3}).bindPopup('<p style="text-align: center;"><b>Toastmasters Amrita Bengaluru,<br>Amrita School of Engineering</b></p>').addTo(map);
+L.marker({lon: 77.67575, lat: 12.89498}, {icon: marker3}).bindPopup('<p style="text-align: center;"><b>Amrita School of Engineering, <br>Toastmasters Amrita Bengaluru</b></p>').addTo(map);
 
 </script>
 

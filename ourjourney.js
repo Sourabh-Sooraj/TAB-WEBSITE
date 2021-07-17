@@ -32,7 +32,7 @@ $('.journeybut').click(function(){
 });
 
 $('#pumpum').click(function(){
-  location.href="https://github.com/anupamvamsi";
+  location.href="https://www.linkedin.com/in/anupamvamsi/";
 });
 
 $('.logos').click(function(){
