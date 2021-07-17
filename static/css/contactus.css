@@ -34,8 +34,8 @@ input{
   width: 90%;
 }
 
-iframe{
-  margin-left: 20%;
+#ifr{
+  text-align: center;
 }
 
 header img{
