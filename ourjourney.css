@@ -16,17 +16,18 @@ html{
     transition: padding 500ms;  
 }
 
-
+.logos{
+  margin: 6px;
+}
 
 .brtxt{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  padding-left: 2.5px;
   font-size: 25px;
   margin:auto;
   color:white;
-  padding-bottom: 25px;
-  padding-top: 25px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 /* 
 .spotlights{

@@ -21,19 +21,19 @@ body{
 }
 
 
-
 .brtxt{
   font-family: 'Source Sans Pro', sans-serif;
   font-weight: 700;
-  padding-left: 2.5px;
   font-size: 25px;
   margin:auto;
-  padding-top: 25px;
-  padding-bottom: 25px;
   color:white;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-
+.logos{
+  margin: 6px;
+}
 
 .navbar p:hover{
   cursor: pointer;
