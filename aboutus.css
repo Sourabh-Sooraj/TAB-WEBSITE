@@ -200,6 +200,7 @@ hr{
      border-radius: 50%;
  }
 
+
  #aboutro{
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
@@ -233,28 +234,46 @@ header img{
   width: 100%;
 }
 
-
-.carousel-item img{
-  border-radius: 50%;
-  margin-left: 45%;
-  margin-bottom: 2%;
-  margin-top: 2%;
-}
-
-.carousel-item p{
+.description h4{
   font-family: 'Source Sans Pro', sans-serif;
-    text-align: justify;
-    text-justify: inter-word;
+  font-size: 1.2em;
+  color: black;
 }
 
-/* .carousel-indicators button{
-  padding-bottom: 10%;
-} */
 
-.carousel-item h3{
-  text-align: center;
-  margin-bottom: 2%;
+
+.description{
+  text-align: justify;
+  text-justify: inter-word;
 }
+
+.zoomin{
+  margin-top: 2%;
+  margin-bottom: 3%;
+  width: 279px;
+  height: 324px;
+  overflow: hidden;
+  position: relative;
+}
+
+.founder{
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  transition: all 500ms ease;
+}
+
+.founder:hover{
+  transform: scale(1.2);
+}
+
+.founders{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
  
  @media only screen and (max-width: 640px) {
     .brtxt{

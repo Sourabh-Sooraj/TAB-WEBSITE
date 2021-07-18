@@ -150,7 +150,9 @@ footer h2{
    padding-bottom: 11px;
  }
 
-
+header{
+  background-color: #004165;
+}
 
 header img{
   width: 100%;
