@@ -52,6 +52,7 @@ header img{
 .brtxt{
   font-family: 'Source Sans Pro', sans-serif;
     color: white;
+    padding-left: 2.5px;
   font-weight: 700;
   font-size: 25px;
   margin:auto;
